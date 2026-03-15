@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelancer</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+</head>
+
+<body style="background-image: url(/images/about-bg.jpg); background-size: 100% 100% ; background-repeat: no-repeat;">
+    <!-- navbar -->
+
+    <!-- <div style="background:url(/images/yellow-background-hero.jpg); position: sticky;" class="min-h-[30px] bg-[#FFF8E7] font-sans relative overflow-hidden "> -->
+
+    <nav
+        class="flex items-center justify-between px-8 py-4 sticky top-0 z-50 bg-white/90 backdrop-blur-md shadow-lg border border-gray-100 rounded-SM mx-auto max-w-[100%] transition-all duration-300">
+
+        <div class="flex items-center gap-2 pl-4">
+            <div class="bg-orange-400 p-2 rounded-lg shadow-sm">
+                <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z">
+                    </path>
+                </svg>
+            </div>
+            <span class="text-xl font-bold text-gray-800 tracking-tight">Freelancer</span>
+        </div>
+
+        <ul class="hidden md:flex gap-6 text-gray-600 font-bold items-center text-md ml-[30px]">
+            <li class="hover:text-orange-500 transition-colors cursor-pointer">Home</li>
+            <li class="hover:text-orange-500 transition-colors cursor-pointer">About</li>
+            <li class="hover:text-orange-500 transition-colors cursor-pointer">Portfolio</li>
+            <li class="hover:text-orange-500 transition-colors cursor-pointer">Service</li>
+            <li class="hover:text-orange-500 transition-colors cursor-pointer">Pricing</li>
+            <li class="hover:text-orange-500 transition-colors cursor-pointer">Experience</li>
+            <li class="hover:text-orange-500 transition-colors cursor-pointer pr-2">Contact</li>
+        </ul>
+
+        <div class="flex items-center gap-3">
+            <button class="bg-orange-400 p-2  rounded-full text-white md:hidden hover:bg-orange-500 transition-all">
+                <svg class="w-5 h-5 " fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7">
+                    </path>
+                </svg>
+            </button>
+
+            <div
+                class="bg-[#FFD000] px-5 py-4 rounded-SM shadow-md hover:scale-105 transition-transform cursor-pointer">
+                <span class="text-xl text-gray-800 flex items-center justify-center">
+                    <i style="font-size: x-large;" class="bi bi-microsoft"></i>
+                </span>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+    <!-- hero -->
+
+
+    <main class=" container mx-auto px-6 flex flex-col md:flex-row items-center min-h-[100vh]">
+
+        <div class="relative w-full md:w-1/2 flex justify-center">
+            <div class="absolute w-[300px] h-[300px] md:w-[450px] md:h-[450px] bg-white rounded-full -z-10 bottom-0">
+            </div>
+
+            <img src="images/banner1 (1).png" alt="Freelancer" class="w-[280px] md:w-[600px] z-10 rounded-full">
+
+            <div
+                class="absolute bottom-135 left-60 animate-float shadow-lg rounded-full bg-white p-3 z-10 animate-bounce">
+                <img src="https://cdn-icons-png.flaticon.com/512/145/145802.png" class="w-12 h-12" alt="fb">
+            </div>
+            <div
+                class="absolute top-60 left-0 animate-float [animation-delay:1s] shadow-lg rounded-full bg-white p-3 z-10 animate-bounce">
+                <img src="https://cdn-icons-png.flaticon.com/512/145/145805.png" class="w-12 h-12" alt="ig">
+            </div>
+            <div
+                class="absolute top-80 left-150 animate-float [animation-delay:1s] shadow-lg rounded-full bg-white p-3 z-10 animate-bounce">
+                <img src="/images/whatsappic.webp" class="w-12 h-12" alt="whatsapp">
+            </div>
+
+            <div
+                class="absolute bottom-0 right-80 animate-float [animation-delay:1.5s] shadow-lg rounded-full bg-white p-3 z-10 animate-bounce ">
+                <img src="https://cdn-icons-png.flaticon.com/512/145/145808.png" class="w-12 h-12 " alt="Pinterest">
+            </div>
+
+
+
+            <div style="margin-top: 0px;"
+                class="absolute w-[290px] h-[150px]   bg-gray-200 z-10 top-120 left-120 rounded-[20px] border-2 border-solid  ">
+                <img src="/images/Screenshot (223).png" class="rounded-[20px] border-solid" alt="">
+
+            </div>
+
+        </div>
+        <!-- right -->
+        <div class="w-full md:w-1/2 mt-12 md:mt-0 space-y-6 ml-[60px]">
+            <span class="bg-orange-400 text-white px-4 py-1 rounded-tl-xl rounded-br-xl font-semibold tracking-wide">
+                HELLO! STRANGER!
+            </span>
+            <h1 class="text-5xl md:text-7xl  text-gray-800 leading-tight">
+                I'm Rebecca <br> Benjamin
+            </h1>
+            <p class="text-3xl md:text-4xl text-gray-700">
+                A <span class="text-orange-400 font-bold">Digital Product</span> Designer
+            </p>
+
+            <div class="flex gap-4 pt-4">
+                <button
+                    class="bg-orange-400 hover:bg-orange-500 text-white px-10 py-4 rounded-full font-bold shadow-lg transition-all transform hover:scale-105">
+                    Hire Me
+                </button>
+                <button
+                    class="bg-pink-500 hover:bg-pink-600 text-white px-10 py-4 rounded-full font-bold shadow-lg transition-all transform hover:scale-105">
+                    My Work
+                </button>
+            </div>
+        </div>
+
+    </main>
+
+
+
+    <!-- about section -->
+    <section
+        style="background-image: url(/images/aboutbg1.jpg); background-size: 100% 100%; background-repeat: no-repeat;"
+        class="bg-white py-20 px-6 font-sans overflow-hidden relative">
+
+        <div class="text-center mb-16 relative">
+            <div class="flex justify-center mb-4">
+                <div
+                    class="w-16 h-16 rounded-full bg-orange-50 flex items-center justify-center border border-orange-100 animate-bounce">
+                    <svg class="w-10 h-10 text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="relative inline-block">
+                <div class="absolute -top-4 -left-8 w-24 h-24 bg-orange-100/40 rounded-full -z-10"></div>
+                <h2 class="text-4xl font-bold text-slate-800">About Me</h2>
+            </div>
+            <p class="text-blue-300 mt-4 text-xl font-semibold">My mission is Design the best websites around</p>
+        </div>
+
+        <div class="container mx-auto flex flex-col lg:flex-row items-center gap-12">
+
+            <div class="w-full lg:w-1/2 space-y-8">
+                <div class="space-y-4">
+                    <h3 class="text-3xl font-bold text-slate-800 leading-tight">
+                        I'm In The Design Industry With <br> 10 Years Of Experience.
+                    </h3>
+                    <p class="text-gray-600 leading-relaxed max-w-lg">
+                        Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
+                        lacus vel facilisis and the ipsum ultrices and the name.
+                    </p>
+                    <h4 class="text-xl font-bold text-slate-700 pt-4">Professional Skills Work</h4>
+                </div>
+
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                    <div class="text-center group">
+                        <div class="relative w-24 h-24 mx-auto mb-3 flex items-center justify-center">
+                            <svg class="w-full h-full transform -rotate-90">
+                                <circle cx="48" cy="48" r="40" stroke="currentColor" stroke-width="8" fill="transparent"
+                                    class="text-gray-100" />
+                                <circle cx="48" cy="48" r="40" stroke="currentColor" stroke-width="8" fill="transparent"
+                                    stroke-dasharray="251" stroke-dashoffset="12"
+                                    class="text-teal-400 drop-shadow-[0_0_8px_rgba(45,212,191,0.5)]" />
+                            </svg>
+                            <span class="absolute text-sm font-bold text-slate-700">95%</span>
+                        </div>
+                        <p class="text-xs font-bold text-slate-600 uppercase tracking-tighter">Web Designing</p>
+                    </div>
+
+                    <div class="text-center">
+                        <div class="relative w-24 h-24 mx-auto mb-3 flex items-center justify-center">
+                            <svg class="w-full h-full transform -rotate-90">
+                                <circle cx="48" cy="48" r="40" stroke="currentColor" stroke-width="8" fill="transparent"
+                                    class="text-gray-100" />
+                                <circle cx="48" cy="48" r="40" stroke="currentColor" stroke-width="8" fill="transparent"
+                                    stroke-dasharray="251" stroke-dashoffset="75"
+                                    class="text-orange-300 drop-shadow-[0_0_8px_rgba(253,186,116,0.5)]" />
+                            </svg>
+                            <span class="absolute text-sm font-bold text-slate-700">70%</span>
+                        </div>
+                        <p class="text-xs font-bold text-slate-600 uppercase tracking-tighter">App Designing</p>
+                    </div>
+
+                    <div class="text-center">
+                        <div class="relative w-24 h-24 mx-auto mb-3 flex items-center justify-center">
+                            <svg class="w-full h-full transform -rotate-90">
+                                <circle cx="48" cy="48" r="40" stroke="currentColor" stroke-width="8" fill="transparent"
+                                    class="text-gray-100" />
+                                <circle cx="48" cy="48" r="40" stroke="currentColor" stroke-width="8" fill="transparent"
+                                    stroke-dasharray="251" stroke-dashoffset="12"
+                                    class="text-pink-400 drop-shadow-[0_0_8px_rgba(244,114,182,0.5)]" />
+                            </svg>
+                            <span class="absolute text-sm font-bold text-slate-700">95%</span>
+                        </div>
+                        <p class="text-xs font-bold text-slate-600 uppercase tracking-tighter">Video Editing</p>
+                    </div>
+
+                    <div class="text-center">
+                        <div class="relative w-24 h-24 mx-auto mb-3 flex items-center justify-center">
+                            <svg class="w-full h-full transform -rotate-90">
+                                <circle cx="48" cy="48" r="40" stroke="currentColor" stroke-width="8" fill="transparent"
+                                    class="text-gray-100" />
+                                <circle cx="48" cy="48" r="40" stroke="currentColor" stroke-width="8" fill="transparent"
+                                    stroke-dasharray="251" stroke-dashoffset="5"
+                                    class="text-emerald-400 drop-shadow-[0_0_8px_rgba(52,211,153,0.5)]" />
+                            </svg>
+                            <span class="absolute text-sm font-bold text-slate-700">98%</span>
+                        </div>
+                        <p class="text-xs font-bold text-slate-600 uppercase tracking-tighter">3D Designing</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full lg:w-1/2 relative flex justify-center lg:justify-end">
+                <div
+                    class="bg-orange-200 rounded-full w-[350px] h-[350px] md:w-[500px] md:h-[500px] absolute -z-10 overflow-hidden">
+                </div>
+
+                <img src="/images/aboutbanner.png" alt="Rebecca Benjamin" class="w-[300px] md:w-[600px] rounded-full">
+
+                <div
+                    class="absolute bottom-10 left-0 lg:-left-10 bg-white p-6 shadow-2xl rounded-tr-[80px] rounded-bl-[20px] rounded-br-[20px] min-w-[280px]">
+                    <h4 class="text-2xl font-bold text-slate-700 mb-2">Rebecca Benjamin</h4>
+                    <span class="bg-orange-50 text-orange-400 px-4 py-2 rounded-full text-sm font-bold">
+                        Front End Developer
+                    </span>
+                </div>
+
+                <div class="absolute top-20 -left-10 w-3 h-3 bg-teal-300 rounded-full animate-pulse"></div>
+                <div class="absolute bottom-40 -right-5 w-3 h-3 bg-pink-400 rounded-full"></div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- RESUME SECTION -->
+
+
+    <section
+        style="background-image: url(/images/resumebg.jpg); background-size: 100% 100%; background-repeat: no-repeat;"
+        class="bg-[#fcfcfc] py-20 px-6 font-sans">
+
+        <div class="text-center mb-16">
+            <h2 class="text-4xl font-bold text-slate-800 relative inline-block">
+                My <span class="border-b-4 border-orange-400">Resume</span>
+                <div style="margin-right: 30px;"
+                    class="absolute -top-6  -right-6 w-12 h-12 bg-orange-100 rounded-full -z-10 opacity-50"></div>
+            </h2>
+            <p class="text-blue-300 mt-4 text-xl font-semibold">My mission is Design the best websites around</p>
+        </div>
+
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 mb-16">
+
+            <div class="bg-white rounded-3xl shadow-sm border border-gray-50 flex overflow-hidden">
+                <div class="bg-orange-400 w-16 flex items-center justify-center relative">
+                    <span class="rotate-180 font-bold text-white tracking-widest uppercase text-sm whitespace-nowrap"
+                        style="writing-mode: vertical-rl;">
+                        My Experience
+                    </span>
+                    <div class="absolute -right-4 top-1/2 -translate-y-1/2 w-8 h-8 bg-orange-400 rotate-45 shadow-lg">
+                    </div>
+                </div>
+
+                <div class="flex-1 p-8 space-y-10">
+                    <div style="margin-top: 50px;" class="relative pl-6 border-l-2 border-gray-100">
+                        <div
+                            class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-white border-4 border-orange-400">
+                        </div>
+                        <p class="text-blue-500 text-sm mb-1 italic">July 29, 2014 - April 13, 2022</p>
+                        <h4 class="text-xl font-bold text-slate-700">Diploma In UI/UX Design</h4>
+                        <p class="text-blue-500 text-sm">Institute of Graphics Technology</p>
+                    </div>
+                    <div style="margin-top: 90px;" class="relative pl-6 border-l-2 border-gray-100 ">
+                        <div
+                            class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-white border-4 border-orange-400">
+                        </div>
+                        <p class="text-blue-500 text-sm mb-1 italic">July 29, 2014 - April 13, 2022</p>
+                        <h4 class="text-xl font-bold text-slate-700">Diploma In UI/UX Design</h4>
+                        <p class="text-blue-500 text-sm">Institute of Graphics Technology</p>
+                    </div>
+                    <div style="margin-top: 90px;" class="relative pl-6 border-l-2 border-gray-100 ">
+                        <div
+                            class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-white border-4 border-orange-400">
+                        </div>
+                        <p class="text-blue-500 text-sm mb-1 italic">July 29, 2014 - April 13, 2022</p>
+                        <h4 class="text-xl font-bold text-slate-700">Diploma In UI/UX Design</h4>
+                        <p class="text-blue-500 text-sm">Institute of Graphics Technology</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-3xl shadow-sm border border-gray-50 flex overflow-hidden">
+                <div class="bg-pink-500 w-16 flex items-center justify-center relative">
+                    <span class="rotate-180 font-bold text-white tracking-widest uppercase text-sm whitespace-nowrap"
+                        style="writing-mode: vertical-rl;">
+                        My Experience
+                    </span>
+                    <div class="absolute -right-4 top-1/2 -translate-y-1/2 w-8 h-8 bg-pink-500 rotate-45 shadow-lg">
+                    </div>
+                </div>
+
+                <div class="flex-1 p-8 space-y-10">
+                    <div style="margin-top: 50px;" class="relative pl-6 border-l-2 border-gray-100">
+                        <div class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-white border-4 border-pink-500">
+                        </div>
+                        <p class="text-blue-500 text-sm mb-1 italic">July 29, 2014 - April 13, 2022</p>
+                        <h4 class="text-xl font-bold text-slate-700">Graphics Designer</h4>
+                        <p class="text-blue-500 text-sm">PixelNX</p>
+                    </div>
+                    <div style="margin-top: 90px;" class="relative pl-6 border-l-2 border-gray-100">
+                        <div class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-white border-4 border-pink-500">
+                        </div>
+                        <p class="text-blue-500 text-sm mb-1 italic">July 29, 2014 - April 13, 2022</p>
+                        <h4 class="text-xl font-bold text-slate-700">Graphics Designer</h4>
+                        <p class="text-blue-500 text-sm">PixelNX</p>
+                    </div>
+                    <div style="margin-top: 90px;" class="relative pl-6 border-l-2 border-gray-100">
+                        <div class="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-white border-4 border-pink-500">
+                        </div>
+                        <p class="text-blue-500 text-sm mb-1 italic">July 29, 2014 - April 13, 2022</p>
+                        <h4 class="text-xl font-bold text-slate-700">Graphics & Web Designer</h4>
+                        <p class="text-blue-500 text-sm">Himanshusofftech</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mx-auto bg-white rounded-3xl p-10 shadow-sm border border-gray-50 relative">
+            <div
+                class="absolute -top-6 left-10 bg-orange-400 text-white px-6 py-3 rounded-2xl font-bold flex items-center gap-2 shadow-lg">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path
+                        d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5c-.351 2.859-1.56 5.395-3.401 7.594M9.65 12.594A18.06 18.06 0 015 15"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                LANGUAGE
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-5 gap-8 mt-6">
+                <div class="text-center">
+                    <span class="text-3xl font-bold text-teal-400">96%</span>
+                    <p class="text-xs font-bold text-slate-600 mt-1 uppercase">English</p>
+                    <div class="w-full bg-gray-100 h-1.5 rounded-full mt-3">
+                        <div class="bg-teal-400 h-1.5 rounded-full" style="width: 96%"></div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <span class="text-3xl font-bold text-pink-500">86%</span>
+                    <p class="text-xs font-bold text-slate-600 mt-1 uppercase">Hindi</p>
+                    <div class="w-full bg-gray-100 h-1.5 rounded-full mt-3">
+                        <div class="bg-pink-500 h-1.5 rounded-full" style="width: 86%"></div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <span class="text-3xl font-bold text-orange-300">75%</span>
+                    <p class="text-xs font-bold text-slate-600 mt-1 uppercase">Spanish</p>
+                    <div class="w-full bg-gray-100 h-1.5 rounded-full mt-3">
+                        <div class="bg-orange-300 h-1.5 rounded-full" style="width: 75%"></div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <span class="text-3xl font-bold text-emerald-400">96%</span>
+                    <p class="text-xs font-bold text-slate-600 mt-1 uppercase">Japanese</p>
+                    <div class="w-full bg-gray-100 h-1.5 rounded-full mt-3">
+                        <div class="bg-emerald-400 h-1.5 rounded-full" style="width: 96%"></div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <span class="text-3xl font-bold text-purple-400">84%</span>
+                    <p class="text-xs font-bold text-slate-600 mt-1 uppercase">French</p>
+                    <div class="w-full bg-gray-100 h-1.5 rounded-full mt-3">
+                        <div class="bg-purple-400 h-1.5 rounded-full" style="width: 84%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-12 flex flex-col md:flex-row items-center justify-center gap-4">
+            <p class="text-slate-600 font-medium">You Can also Download my Resume in PDF Format</p>
+            <button
+                class="bg-orange-400 hover:bg-orange-500 text-white px-8 py-3 rounded-pill font-bold shadow-lg flex items-center gap-2 transition-transform hover:scale-105">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                Download
+            </button>
+        </div>
+    </section>
+
+
+    <!-- I'm Specialized in -->
+
+    <section
+        style="background-image: url(/images/resumebg.jpg); background-size: 100% 100%; background-repeat: no-repeat;"
+        class="bg-white py-20 px-6 font-sans">
+
+        <div class="text-center mb-16">
+            <h2 class="text-4xl font-bold text-slate-800 relative inline-block">
+                I'm Specialized in
+                <div class="absolute -bottom-2 left-1/2 -translate-x-1/2 w-12 h-1 bg-orange-400 rounded-full"></div>
+            </h2>
+            <p class="text-blue-400 mt-4 text-xl font-semibold">
+                My mission is Design the best websites around
+            </p>
+        </div>
+
+
+
+
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+            <div
+                class="group bg-gray-200 p-10 rounded-2xl shadow-xl shadow-slate-100/50 border-t-4 border-orange-400 transition-all duration-300 hover:-translate-y-2 flex flex-col items-center text-center">
+                <div class="relative mb-8">
+                    <div class="absolute inset-0 bg-orange-50 rounded-full scale-150 -z-10 opacity-60"></div>
+                    <img src="https://cdn-icons-png.flaticon.com/512/1055/1055666.png" class="w-16 h-16"
+                        alt="Web Design">
+                </div>
+                <h3 class="text-xl font-bold text-slate-700 mb-4">Web Design</h3>
+                <p class="text-gray-600 font-semibold text-sm leading-relaxed">
+                    Consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+
+            <div
+                class="group bg-gray-200 p-10 rounded-2xl shadow-xl shadow-slate-100/50 border-t-4 border-orange-400 transition-all duration-300 hover:-translate-y-2 flex flex-col items-center text-center">
+                <div class="relative mb-8">
+                    <div class="absolute inset-0 bg-orange-50 rounded-full scale-150 -z-10 opacity-60"></div>
+                    <img src="https://cdn-icons-png.flaticon.com/512/1126/1126620.png" class="w-16 h-16"
+                        alt="Graphics Design">
+                </div>
+                <h3 class="text-xl font-bold text-slate-700 mb-4">Graphics Design</h3>
+                <p class="text-gray-600 font-semibold text-sm leading-relaxed">
+                    Consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+
+            <div
+                class="group bg-gray-200 p-10 rounded-2xl shadow-xl shadow-slate-100/50 border-t-4 border-orange-400 transition-all duration-300 hover:-translate-y-2 flex flex-col items-center text-center">
+                <div class="relative mb-8">
+                    <div class="absolute inset-0 bg-orange-50 rounded-full scale-150 -z-10 opacity-60"></div>
+                    <img src="https://cdn-icons-png.flaticon.com/512/1997/1997971.png" class="w-16 h-16"
+                        alt="Advertising">
+                </div>
+                <h3 class="text-xl font-bold text-slate-700 mb-4">Advertising</h3>
+                <p class="text-gray-600 font-semibold text-sm leading-relaxed">
+                    Consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+
+            <div
+                class="group bg-gray-200 p-10 rounded-2xl shadow-xl shadow-slate-100/50 border-t-4 border-orange-400 transition-all duration-300 hover:-translate-y-2 flex flex-col items-center text-center">
+                <div class="relative mb-8">
+                    <div class="absolute inset-0 bg-orange-50 rounded-full scale-150 -z-10 opacity-60"></div>
+                    <img src="https://cdn-icons-png.flaticon.com/512/3159/3159066.png" class="w-16 h-16"
+                        alt="Creativity">
+                </div>
+                <h3 class="text-xl font-bold text-slate-700 mb-4">Creativity</h3>
+                <p class="text-gray-600 font-semibold text-sm leading-relaxed">
+                    Consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!--WORK PORTFOLIO-->
+
+    <section
+        style="background-image: url(/images/resumebg.jpg); background-size: 100% 100%; background-repeat: no-repeat;"
+        class="bg-white py-20 px-6 font-sans">
+
+        <div class="text-center mb-16">
+            <h2 class="text-4xl font-bold text-slate-800 relative inline-block">
+                Work portfolio
+                <div class="absolute -bottom-2 left-1/2 -translate-x-1/2 w-12 h-1 bg-orange-400 rounded-full"></div>
+            </h2>
+            <p class="text-blue-400 mt-4 text-xl font-semibold">
+                My mission is Design the best websites around
+            </p>
+        </div>
+
+        <div
+            class="flex  gap-[40px] bg-yellow-200 mx-auto w-[650px] h-[60px] items-center justify-center  rounded-full text-md font-semibold">
+            <a href="">
+                <h2>All</h2>
+            </a>
+            <a href="">
+                <h2>UI/UX Design</h2>
+            </a>
+            <a href="">
+                <h2>Graphics Design</h2>
+            </a>
+            <a href="">
+                <h2>Illustration </h2>
+            </a>
+            <a href="">
+                <h2>Video Editing</h2>
+            </a>
+        </div>
+
+        <div class=" w-256 bg-yellow-500  shadow-lg shadow-yellow-600/50   mx-auto">
+            <div class="flex justify-center gap-2 mt-10">
+                <div class="w-64 h-64  bg-gray-300"><img src="/images/img1.png" alt=""></div>
+                <div class="w-64 h-64  bg-gray-300"><img src="/images/img2.png" alt=""></div>
+                <div class="w-64 h-64  bg-gray-300"><img src="/images/img3.png" alt=""></div>
+                <div class="w-64 h-64  bg-gray-300"><img src="/images/img4.png" alt=""></div>
+            </div>
+            <div class="flex justify-center gap-2 mt-3">
+                <div class="w-64 h-64  bg-gray-300"><img src="/images/img5.png" alt=""></div>
+                <div class="w-64 h-64  bg-gray-300"><img src="/images/img6.png" alt=""></div>
+                <div class="w-64 h-64  bg-gray-300"><img src="/images/img7.png" alt=""></div>
+                <div class="w-64 h-64  bg-gray-300"><img src="/images/img8.png" alt=""></div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+    <!-- WE SAY -->
+
+    <section class="py-15 px-6 bg-[#FFF8F2] relative overflow-hidden">
+        <div
+            class="absolute top-0 left-0 w-64 h-64 bg-orange-100/50 rounded-full -translate-x-1/2 -translate-y-1/2 blur-3xl">
+        </div>
+
+        <div class="max-w-7xl mx-auto relative z-10">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-slate-800">What Clients Say</h2>
+                <div class="w-16 h-1 bg-orange-400 mx-auto mt-2 rounded-full"></div>
+                <p class="text-blue-400 mt-4 text-lg font-medium">My mission is Design the best websites around</p>
+            </div>
+
+            <div class="relative group">
+                <div id="testimonial-slider" class="flex gap-6 overflow-x-hidden scroll-smooth">
+
+                    <div
+                        class="min-w-full md:min-w-[calc(50%-12px)] bg-white p-8 rounded-2xl shadow-xl shadow-orange-100/50 border border-gray-50">
+                        <div class="flex items-center gap-4 mb-6">
+                            <img src="https://i.pravatar.cc/150?u=1" alt="Angela Carol"
+                                class="w-20 h-20 rounded-full border-4 border-white shadow-md">
+                            <div>
+                                <h4 class="text-xl font-bold text-slate-800">Angela Carol</h4>
+                                <p class="text-sm text-blue-400 font-semibold uppercase tracking-wider">UI Designer</p>
+                                <div class="flex text-yellow-400 mt-1">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star text-gray-300"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="relative bg-slate-50 p-6 rounded-2xl italic text-gray-600 leading-relaxed">
+                            <i class="bi bi-quote absolute -top-4 right-6 text-5xl text-orange-200"></i>
+                            "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
+                            lacus vel facilisis."
+                        </div>
+                    </div>
+
+                    <div
+                        class="min-w-full md:min-w-[calc(50%-12px)] bg-white p-8 rounded-2xl shadow-xl shadow-orange-100/50 border border-gray-50">
+                        <div class="flex items-center gap-4 mb-6">
+                            <img src="https://i.pravatar.cc/150?u=2" alt="Angela Carol"
+                                class="w-20 h-20 rounded-full border-4 border-white shadow-md">
+                            <div>
+                                <h4 class="text-xl font-bold text-slate-800">Angela Carol</h4>
+                                <p class="text-sm text-blue-400 font-semibold uppercase tracking-wider">UI Designer</p>
+                                <div class="flex text-yellow-400 mt-1">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star text-gray-300"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="relative bg-slate-50 p-6 rounded-2xl italic text-gray-600 leading-relaxed">
+                            <i class="bi bi-quote absolute -top-4 right-6 text-5xl text-orange-200"></i>
+                            "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
+                            lacus vel facilisis."
+                        </div>
+                    </div>
+
+                    <div
+                        class="min-w-full md:min-w-[calc(50%-12px)] bg-white p-8 rounded-2xl shadow-xl shadow-orange-100/50 border border-gray-50">
+                        <div class="flex items-center gap-4 mb-6">
+                            <img src="https://i.pravatar.cc/150?u=3" alt="John Doe"
+                                class="w-20 h-20 rounded-full border-4 border-white shadow-md">
+                            <div>
+                                <h4 class="text-xl font-bold text-slate-800">John Doe</h4>
+                                <p class="text-sm text-blue-400 font-semibold uppercase tracking-wider">Developer</p>
+                                <div class="flex text-yellow-400 mt-1">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                        class="bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="relative bg-slate-50 p-6 rounded-2xl italic text-gray-600 leading-relaxed">
+                            <i class="bi bi-quote absolute -top-4 right-6 text-5xl text-orange-200"></i>
+                            "Magna aliqua quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+                            accumsan lacus vel facilisis and the part of new generation."
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex justify-center gap-2 mt-10">
+                    <button onclick="scrollToSlide(0)"
+                        class="dot w-3 h-3 rounded-full bg-orange-400 transition-all"></button>
+                    <button onclick="scrollToSlide(1)"
+                        class="dot w-3 h-3 rounded-full bg-slate-300 transition-all"></button>
+                    <button onclick="scrollToSlide(2)"
+                        class="dot w-3 h-3 rounded-full bg-slate-300 transition-all"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function scrollToSlide(index) {
+            const slider = document.getElementById('testimonial-slider');
+            const dots = document.querySelectorAll('.dot');
+            const cardWidth = slider.querySelector('div').offsetWidth + 24; // Card + Gap
+
+            slider.scrollLeft = index * cardWidth;
+
+            // Update dots UI
+            dots.forEach((dot, i) => {
+                dot.classList.toggle('bg-orange-400', i === index);
+                dot.classList.toggle('bg-slate-300', i !== index);
+                dot.classList.toggle('w-8', i === index); // Expands the active dot
+            });
+        }
+    </script>
+
+    <!-- PLAN PRICING -->
+    
+    <section class="py-20 px-6 bg-[#FFF8F2] relative overflow-hidden">
+        <div
+            class="absolute top-0 left-0 w-64 h-64 bg-orange-100/50 rounded-full -translate-x-1/2 -translate-y-1/2 blur-3xl">
+        </div>
+
+        <div class="max-w-7xl mx-auto relative z-10">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-slate-800">My Plan & Pricing</h2>
+                <div class="w-16 h-1 bg-orange-400 mx-auto mt-2 rounded-full"></div>
+                <p class="text-blue-400 mt-4 text-lg font-medium">No Hidden Charge! Choose your plan.</p>
+            </div>
+
+            <div>
+                <div
+                    class="flex  gap-[40px] bg-yellow-400 mx-auto w-[200px] h-[30px] items-center justify-center  rounded-full text-md font-semibold mt-0">
+                    <H2>Save 25% With Annualy</H2>
+
+                </div>
+                <div class="flex items-center justify-center gap-4 mt-4">
+                    <h2 class="font-bold">Monthly</h2>
+                    <label class="relative inline-flex items-center cursor-pointer">
+                        <input type="checkbox" value="" class="sr-only peer">
+                        <div
+                            class="w-11 h-6 bg-gray-600 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-gray-300 after:border-white-600 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-orange-400">
+                        </div>
+
+                    </label>
+                    <span class="ms-3 text-md font-medium text-yellow-600">Annually</span>
+                </div>
+
+            </div>
+
+
+            <!-- boxes -->
+            <div class="w-250 h-100  rounded-md mt-5 mx-auto rounded-xl">
+                <div class=" relative w-250 h-35 border border-white-600  flex gap-15 justify-end rounded-xl">
+                    <div class="w-40 h-35  flex flex-col gap-4 items-center justify-center"><img
+                            src="/images/pricing1.png" alt="">
+                        <h1 class="font-bold">$ 25000</h1>
+                    </div>
+                    <div class="w-40 h-35  flex flex-col gap-4 items-center justify-center"><img
+                            src="/images/pricing2.png" alt="">
+                        <h1 class="font-bold">$ 15124</h1>
+                    </div>
+                    <div class="w-40 h-35  flex flex-col gap-4 items-center justify-center"><img
+                            src="/images/pricing3.png" alt="">
+                        <h1 class="font-bold">$ 20</h1>
+                    </div>
+
+                    <div
+                        class=" absolute flex  gap-[40px] bg-green-200 mx-auto w-[170px] h-[30px] items-center justify-center  rounded-full   mt-0 top-30 right-113">
+                        <p class="text-sm">FULL TIME WORK</p>
+
+                    </div>
+                    <div
+                        class=" absolute flex  gap-[40px] bg-red-200 mx-auto w-[170px] h-[30px] items-center justify-center  rounded-full   mt-0 top-30 right-52">
+                        <p class="text-sm">FIXED PRICE PROJECT</p>
+
+                    </div>
+                    <div
+                        class=" absolute flex  gap-[40px] bg-green-100 mx-auto w-[130px] h-[30px] items-center justify-center  rounded-full   mt-0 top-30 right-5">
+                        <p class="text-sm">HOURLY WORK</p>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="w-250 h-65 border border-indigo-600 flex justify-end items-center rounded-xl">
+                    <div
+                        class="w-100 h-65 border border-indigo-600 flex flex-col gap-5 items-center justify-center rounded-xl text-left">
+                        <h2 class="text-left">Graphic Design</h2>
+                        <h2 class="text-left">Logo Design</h2>
+                        <h2 class="text-left">Web Design</h2>
+                        <h2 class="text-left">Video Editing</h2>
+                        <h2 class="text-left">Email Supporting</h2>
+                    </div>
+                    <div
+                        class="w-70 h-65 border border-indigo-600 flex flex-col gap-5 items-center justify-center rounded-xl">
+                        <i class="bi bi-check-circle-fill text-green-400"></i>
+                        <i class="bi bi-check-circle-fill text-green-400"></i>
+                        <i class="bi bi-check-circle-fill text-green-400"></i>
+                        <i class="bi bi-check-circle-fill"></i>
+                        <i class="bi bi-check-circle-fill"></i>
+                    </div>
+                    <div
+                        class="w-70 h-65 border border-indigo-600 flex flex-col gap-5 items-center justify-center rounded-xl">
+                        <i class="bi bi-check-circle-fill text-green-400"></i>
+                        <i class="bi bi-check-circle-fill"></i>
+                        <i class="bi bi-check-circle-fill"></i>
+                        <i class="bi bi-check-circle-fill text-green-400"></i>
+                        <i class="bi bi-check-circle-fill text-green-400"></i>
+
+                    </div>
+                    <div
+                        class="w-50 h-65 border border-indigo-600 flex flex-col gap-5 items-center justify-center rounded-xl">
+                        <i class="bi bi-check-circle-fill text-green-400"></i>
+                        <i class="bi bi-check-circle-fill"></i>
+                        <i class="bi bi-check-circle-fill text-green-400"></i>
+                        <i class="bi bi-check-circle-fill"></i>
+                        <i class="bi bi-check-circle-fill text-green-400"></i>
+
+                    </div>
+
+
+                </div>
+
+                <div
+                    class=" absolute flex  gap-[40px] bg-yellow-500  shadow-lg shadow-yellow-500/50 mx-auto w-[110px] h-[35px] items-center justify-center  rounded-full   mt-0 top-158 right-155">
+                    <p class="text-sm text-white">Hire Me</p>
+
+                </div>
+                <div
+                    class=" absolute flex  gap-[40px] bg-pink-600  shadow-lg shadow-pink-500/50 mx-auto w-[110px] h-[35px] items-center justify-center  rounded-full   mt-0 top-158 right-95">
+                    <p class="text-sm text-white">Hire Me</p>
+
+                </div>
+                <div
+                    class=" absolute flex  gap-[40px] bg-green-500  shadow-lg shadow-green-500/50 mx-auto w-[110px] h-[35px] items-center justify-center  rounded-full   mt-0 top-158 right-42">
+                    <p class="text-sm text-white">Hire Me</p>
+
+                </div>
+
+
+            </div>
+
+
+
+
+    </section>
+    
+    <!-- CONTACT -->
+
+    <section class="py-20 px-6 bg-[#FFF8F2] relative overflow-hidden">
+        <div
+            class="absolute top-0 left-0 w-64 h-64 bg-orange-100/50 rounded-full -translate-x-1/2 -translate-y-1/2 blur-3xl">
+        </div>
+
+        <div class="max-w-7xl mx-auto relative z-10">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-slate-800">Contact Me</h2>
+                <div class="w-16 h-1 bg-orange-400 mx-auto mt-2 rounded-full"></div>
+                <p class="text-blue-400 mt-4 text-lg font-medium">No Hidden Charge! Choose your plan.</p>
+            </div>
+        </div>
+
+
+
+
+        <!-- contact b0x -->
+
+        <div
+            class="w-300 h-150   bg--300 mx-auto rounded-[20px] flex items-center justify-evenly gap-4  py-10 px-12 shadow-xl/20">
+
+            <div class="w-180 h-140">
+                <div>
+                    <h1 class="text-xl font-bold">Get In Touch</h1>
+                    <p>Drop me a message and I’ll get back to you</p>
+                </div>
+
+
+
+                <form class="space-y-5 py-10 px-10">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-8">
+
+                        <div class="flex flex-col">
+                            <label class="text-gray-700 font-medium mb-1">First Name</label>
+                            <input type="text" placeholder="Enter your name"
+                                class="border border-gray-300 rounded px-3 py-2 outline-none focus:ring-1 focus:ring-blue-400 placeholder-gray-400">
+                        </div>
+
+                        <div class="flex flex-col">
+                            <label class="text-gray-700 font-medium mb-1">Your Email</label>
+                            <input type="email" placeholder="Enter your e-mail"
+                                class="border border-gray-300 rounded px-3 py-2 outline-none focus:ring-1 focus:ring-blue-400 placeholder-gray-400">
+                        </div>
+
+                        <div class="flex flex-col">
+                            <label class="text-gray-700 font-medium mb-1">Last Name</label>
+                            <input type="text" placeholder="enter your last name"
+                                class="border border-gray-300 rounded px-3 py-2 outline-none focus:ring-1 focus:ring-blue-400 placeholder-gray-400">
+                        </div>
+
+                        <div class="flex flex-col">
+                            <label class="text-gray-700 font-medium mb-1">Your Subject </label>
+                            <select
+                                class="border border-gray-300 rounded px-3 py-2 outline-none focus:ring-1 focus:ring-blue-400 text-gray-500 bg-white">
+                                <option>Select a subject</option>
+                            </select>
+                        </div>
+
+
+                    </div>
+
+                    <div class="flex flex-col">
+                        <label class="text-gray-700 font-medium mb-1">Address</label>
+                        <input type="text" placeholder="Enter your address"
+                            class="border border-gray-300 rounded px-3 py-2 outline-none focus:ring-1 focus:ring-blue-400 placeholder-gray-400">
+                    </div>
+
+
+
+                    <div class="flex items-start gap-2 pt-2">
+                        <input type="checkbox" class="mt-1 accent-blue-500 h-4 w-4">
+                        <label class="text-gray-500 text-sm">I hereby declare that I have read all the terms and
+                            conditions</label>
+                    </div>
+
+                    <div class="pt-4 flex justify-between items-center">
+                        <button type="submit"
+                            class="bg-yellow-500  shadow-lg shadow-yellow-500/50 text-white px-8 py-2 rounded-full font-bold text-lg hover:bg-[#2374a8] transition-colors">
+                            Submit
+                        </button>
+
+                        <div class="flex  gap-5">
+                            <h2>Follow Me-</h2>
+                            <i class="bi bi-browser-firefox  bg-green-200 px-3 py-2  rounded-full px-2"></i>
+                            <i class="bi bi-facebook px-3 py-2  bg-blue-200 rounded-full"></i>
+                            <i class="bi bi-twitter-x px-3 py-2  bg-yellow-200 rounded-full"></i>
+                            <i class="bi bi-linkedin px-3 py-2  bg-cyan-200 rounded-full"></i>
+
+
+                        </div>
+
+                    </div>
+                </form>
+
+            </div>
+            <!-- 2nd box -->
+
+            <div
+                class="w-100 h-130 border border-solid flex flex-col gap-3 items-center bg-[#3c4856] text-white p-2 rounded-[15px]">
+                <div>
+                    <h1 class="text-[30px] font-semibold">Contact Information</h1>
+                    <p>Drop me a message and I’ll get back to you</p>
+                </div>
+                <div
+                    class="bg-yellow-200 w-90 h-32 rounded-md text-black flex  gap-3 items-center justify-center">
+                   <i class="bi bi-forward mr-5"></i>
+                    <div class="flex flex-col mr-10">
+                        <span> support@example.com</span>
+                    <span class="">nextsupport@example.com</span></div>
+                    
+                </div>
+                <div
+                    class="bg-green-200 w-90 h-32 rounded-md text-black flex  gap-3 items-center justify-center ">
+                   <i class="bi bi-telephone mr-10"></i>
+                    <div class="flex flex-col mr-10">
+                        <span> +( 351 ) 1800-1323-12746</span>
+                    <span class="">+( 351 ) 1800-1323-12746</span></div>
+                </div>
+                <div
+                    class="bg-red-200 w-90 h-32 rounded-md text-black flex  gap-3 items-center justify-center ">
+                    <a href=""><span><i class="bi bi-geo-alt  mr-5"></i></a>
+                    <span>413, Tower, B4 square i-Tech Hanah <br>
+                        Sector 59, Los Angeles 213/323 <br>
+                        California, US State</span>
+                </div>
+
+
+
+
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+    </section>
+    
+
+    <!-- footer -->
+     <div class="bg-yellow-500 h-20 flex items-center justify-center font-semibold">
+       <p>Copyright © 2024 Freelancer. All Rights Reserved</p>
+
+
+     </div>
+
+</body>
+
+</html>
